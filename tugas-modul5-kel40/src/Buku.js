@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import Modal from "react-modal";
+import Button from '@mui/material/Button';
 
 const customStyles = {
   content: {
@@ -14,6 +15,7 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
+    color: "magenta",
   },
 };
 
@@ -23,9 +25,9 @@ function Buku() {
   const [valueCatalog, setValueCatalog] = useState("A");
   return (
     <CatalogContext.Provider value={valueCatalog}>
-      <div>
-        <button onClick={() => setValueCatalog("A")}>Mixed Author</button>
-        <button onClick={() => setValueCatalog("B")}>Haruki Murakami</button>
+      <div className="button">
+        <Button variant="contained" color="success" onClick={() => setValueCatalog("A")}>Mixed Author</Button>
+        <Button variant="contained" color="success" onClick={() => setValueCatalog("B")}>Haruki Murakami</Button>
       </div>
       <Content />
     </CatalogContext.Provider>
@@ -90,12 +92,12 @@ function Data() {
       <Grid
         container
         spacing={3}
-        style={{ marginTop: "50px", marginLeft: "10px" }}
+        style={{ marginTop: "50px"}}
       >
         {buku.map((result) => {
           return (
             <Grid item key={result.id} md={4}>
-              <Card>
+              <Card variant="outlined">
                 <CardActionArea
                   onClick={() =>
                     OpenModal(
@@ -108,7 +110,7 @@ function Data() {
                     )
                   }
                 >
-                  <Typography>{result.title}</Typography>
+                  <Typography variant="h5" color="secondary">{result.title}</Typography>
                   <Typography>{result.pages}</Typography>
                 </CardActionArea>
               </Card>

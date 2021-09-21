@@ -1,9 +1,18 @@
-import Appbar from "@material-ui/core/AppBar";
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import './App.css'
 
 function App() {
   return (
     <div>
-      <Appbar>Tugas Kelompok 40 Modul 5</Appbar>
+      <AppBar color="primary" position="static">
+      <Toolbar variant="dense">
+      <Typography variant="h4" color="secondary" component="div">
+        Tugas Kelompok 40 Modul 5
+      </Typography>
+      </Toolbar>
+      </AppBar>
       <br></br>
     </div>
   );
