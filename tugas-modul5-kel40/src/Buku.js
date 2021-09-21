@@ -89,12 +89,12 @@ function Data() {
     <div>
       <Grid
         container
-        spacing={4}
+        spacing={3}
         style={{ marginTop: "50px", marginLeft: "10px" }}
       >
         {buku.map((result) => {
           return (
-            <Grid item key={result.id} md={3}>
+            <Grid item key={result.id} md={4}>
               <Card>
                 <CardActionArea
                   onClick={() =>

@@ -65,6 +65,22 @@
       "pages": 928,
       "releaseDate": "2009",
       "isbn": "al207"
+    },
+    {
+      "id": 9,
+      "author":"Haruki Murakami",
+      "title": "The Wind-Up Bird Chronicle",
+      "pages": 607,
+      "releaseDate": "1994",
+      "isbn": "9780307762702"
+    },
+    {
+      "id": 10,
+      "author":"Haruki Murakami",
+      "title": "A Wild Sheep Chase",
+      "pages": 405,
+      "releaseDate": "1982",
+      "isbn": "9783899039382"
     }
   ]
 }
