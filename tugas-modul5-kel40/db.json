@@ -1,0 +1,70 @@
+{
+  "A": [
+    {
+      "id": 1,
+      "author":"Charles Dickens",
+      "title": "Oliver Twist",
+      "pages": 234,
+      "releaseDate": "1839",
+      "isbn": "wt345"
+    },
+    {
+      "id": 2,
+      "author":"Charles Dickens",
+      "title": "Hard Times",
+      "pages": 300,
+      "releaseDate": "1854",
+      "isbn": "jk654"
+    },
+    {
+      "id": 3,
+      "author":"William Shakespeare",
+      "title": "Hamlet",
+      "pages": 160,
+      "releaseDate": "1603",
+      "isbn": "po789"
+    },
+    {
+      "id": 4,
+      "author":"Stephen King",
+      "title": "IT",
+      "pages": 500,
+      "releaseDate": "2017",
+      "isbn": "yu098"
+    }
+  ],
+  "B": [
+    {
+      "id": 5,
+      "author":"Haruki Murakami",
+      "title": "Norwegian Wood",
+      "pages": 296,
+      "releaseDate": "1987",
+      "isbn": "hj846"
+    },
+    {
+      "id": 6,
+      "author":"Haruki Murakami",
+      "title": "Kafka on the Shore",
+      "pages": 505,
+      "releaseDate": "2002",
+      "isbn": "op012"
+    },
+    {
+      "id": 7,
+      "author":"Haruki Murakami",
+      "title": "After Dark",
+      "pages": 208,
+      "releaseDate": "2004",
+      "isbn": "cv456"
+    },
+    {
+      "id": 8,
+      "author":"Haruki Murakami",
+      "title": "1Q84",
+      "pages": 928,
+      "releaseDate": "2009",
+      "isbn": "al207"
+    }
+  ]
+}
